@@ -4,16 +4,16 @@ This repository contains the SQL scripts and the Entity-Relationship Diagram (ER
 ## Database Schema
 The database consists of the following main tables:
 
-Categories: Stores information about product categories.
-Products: Contains all details of the products sold.
-Stock_details: Stores information about stock levels and suppliers of products.
-Suppliers: Information about the product suppliers.
-Customers: Stores customer account information.
-Addresses: Customer addresses for shipping and billing.
-Carts: Shopping cart data for each customer.
-Orders: Order transactions made by customers.
-Shipments: Shipping details of orders.
-Reviews: Customer reviews for products.
+- **Categories**: Stores information about product categories.
+- **Products**: Contains all details of the products sold.
+- **Stock_details**: Stores information about stock levels and suppliers of products.
+- **Suppliers**: Information about the product suppliers.
+- **Customers**: Stores customer account information.
+- **Addresses**: Customer addresses for shipping and billing.
+- **Carts**: Shopping cart data for each customer.
+- **Orders**: Order transactions made by customers.
+- **Shipments**: Shipping details of orders.
+- **Reviews**: Customer reviews for products.
 
 #### Each table is designed with specific relationships that are crucial for integrity and performance. Foreign keys are used extensively to ensure data consistency.
 
